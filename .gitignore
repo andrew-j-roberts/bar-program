@@ -1,0 +1,5 @@
+docs/
+.idea/
+bin/
+target/*
+.DS_STORE

@@ -180,6 +180,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -317,9 +318,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.DirectPubSub - PUB" />
+      <item itemvalue="Application.QueueProvisionAndBrowse" />
       <item itemvalue="Application.RRDirectReplier2" />
       <item itemvalue="Application.RRDirectReplier3" />
-      <item itemvalue="Application.QueueProvisionAndBrowse" />
       <item itemvalue="Application.SimpleFlowToQueue" />
       <item itemvalue="Application.SimpleFlowToTopic" />
       <item itemvalue="Application.TopicToQueueMapping" />
