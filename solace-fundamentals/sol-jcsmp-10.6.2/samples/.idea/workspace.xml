@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92525123-8235-4d39-a97d-16f97a06f8eb" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/Transactions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-822">
+              <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/common/SampleApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/SimpleFlowToQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="90" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>provision(</find>
+      <find>subscri</find>
+      <find>topic</find>
+      <find>subscribe</find>
+      <find>send</find>
+      <find>set</find>
+      <find>compression</find>
+      <find>provision</find>
+      <find>unsub</find>
+      <find>Provision</find>
+      <find>logger.(</find>
+      <find>logger.error(</find>
+      <find>num</find>
+      <find>bytes</find>
+      <find>onreceiv</find>
+      <find>createFlow</find>
+      <find>auto</find>
+      <find>onreceive</find>
+      <find>session2.</find>
+      <find>NO_LOCAL</find>
+      <find>JCSMPTransport</find>
+      <find>main</find>
+      <find>create</find>
+      <find>-z</find>
+      <find>cp</find>
+      <find>createsessio</find>
+      <find>c</find>
+      <find>session</find>
+      <find>creates</find>
+      <find>queue</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>logger.info(</replace>
+      <replace>logger.error(</replace>
+      <replace>logger.info(String.format(</replace>
+      <replace>logger.error(String.format(</replace>
+      <replace>System.out.println(</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/QueueProvisionAndRequestActiveFlowIndication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/common/SampleUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/MessageTTLAndDeadMessageQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/AdPubAck.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/NoLocalPubSub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/SimpleFlowToQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/SimpleFlowToTopic.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/intro/HelloWorldPub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/intro/HelloWorldSub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/DirectPubSub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/FlowControlQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/QueueProvisionAndBrowse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/TopicToQueueMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/Transactions.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jcsmp-samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jcsmp-samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jcsmp-samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="com.solacesystems:sol-jcsmp:10.5.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jcsmp-samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.slf4j:log4j-over-slf4j:1.7.25" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jcsmp-samples" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.slf4j:slf4j-log4j12:1.7.25" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="520" />
+    <option name="y" value="23" />
+    <option name="width" value="1160" />
+    <option name="height" value="946" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jcsmp-samples" type="b2602c69:ProjectViewProjectNode" />
+              <item name="samples" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.solacesystems.jcsmp.samples.introsamples" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Transactions">
+    <configuration name="DirectPubSub - PUB" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.DirectPubSub" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-directpubsub-pub@default -w default" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QueueProvisionAndBrowse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.QueueProvisionAndBrowse" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-simpleBrowserFlow@default -w default" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RRDirectReplier2" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.RRDirectReplier" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-rrdirect@default -w default -rt #share/shared/bar1/test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RRDirectReplier3" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.RRDirectReplier" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-rrdirect@default -w default -rt #share/shared/bar1/test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFlowToQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.SimpleFlowToQueue" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-simpleFlowToQueue@default -w default" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleFlowToTopic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.SimpleFlowToTopic" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-simpleFlowToQueue@default -w default -d" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicToQueueMapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.TopicToQueueMapping" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h localhost:55555 -u bar1-topicToQueueMapping@default -w default" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Transactions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.solacesystems.jcsmp.samples.introsamples.Transactions" />
+      <module name="jcsmp-samples" />
+      <option name="PROGRAM_PARAMETERS" value="-h 0.0.0.0 -u bar1-transactions@default -w default -z" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.solacesystems.jcsmp.samples.introsamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DirectPubSub - PUB" />
+      <item itemvalue="Application.RRDirectReplier2" />
+      <item itemvalue="Application.RRDirectReplier3" />
+      <item itemvalue="Application.QueueProvisionAndBrowse" />
+      <item itemvalue="Application.SimpleFlowToQueue" />
+      <item itemvalue="Application.SimpleFlowToTopic" />
+      <item itemvalue="Application.TopicToQueueMapping" />
+      <item itemvalue="Application.Transactions" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Transactions" />
+        <item itemvalue="Application.SimpleFlowToQueue" />
+        <item itemvalue="Application.TopicToQueueMapping" />
+        <item itemvalue="Application.SimpleFlowToTopic" />
+        <item itemvalue="Application.QueueProvisionAndBrowse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92525123-8235-4d39-a97d-16f97a06f8eb" name="Default Changelist" comment="" />
+      <created>1561668186523</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561668186523</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="946" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2753358" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32953367" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5005325" side_tool="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.3266979" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946752" visible="true" weight="0.24941452" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.22833724" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24973376" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32953367" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5005325" side_tool="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32953367" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49946752" weight="0.32953367" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32960597" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/QueueProvisionAndBrowse.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/ch/qos/logback/classic/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="947" column="23" selection-start-line="947" selection-start-column="23" selection-end-line="947" selection-end-column="23" />
+          <folding>
+            <element signature="e#33806#33807#0" expanded="true" />
+            <element signature="e#33849#33850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="988" column="18" selection-start-line="988" selection-start-column="18" selection-end-line="988" selection-end-column="18" />
+          <folding>
+            <element signature="e#39055#39056#0" expanded="true" />
+            <element signature="e#39113#39114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/User_Cos.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/AsyncCacheRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/Destination.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/XMLMessageProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/BytesXMLMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/openjdk-12.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/XMLMessageListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/impl/DurableTopicEndpointImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/ConsumerFlowProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/JCSMPSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="100" column="34" lean-forward="true" selection-start-line="100" selection-start-column="34" selection-end-line="100" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/JCSMPFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="450" column="25" selection-start-line="450" selection-start-column="25" selection-end-line="450" selection-end-column="25" />
+          <folding>
+            <element signature="e#25133#25134#0" expanded="true" />
+            <element signature="e#25190#25191#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/common/SampleUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="189" column="52" selection-start-line="189" selection-start-column="52" selection-end-line="189" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/MessageReplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/solacesystems/sol-jcsmp/10.5.0/sol-jcsmp-10.5.0.jar!/com/solacesystems/jcsmp/EndpointProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="118" column="16" selection-start-line="118" selection-start-column="16" selection-end-line="118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/intro/HelloWorldSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/intro/HelloWorldPub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="68" column="48" lean-forward="true" selection-start-line="68" selection-start-column="48" selection-end-line="68" selection-end-column="48" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/DirectPubSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="152" column="53" selection-start-line="152" selection-start-column="44" selection-end-line="152" selection-end-column="53" />
+          <folding>
+            <element signature="e#6230#6231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/RRDirectRequester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="121" column="55" lean-forward="true" selection-start-line="121" selection-start-column="55" selection-end-line="121" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/RRDirectReplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="270" column="67" lean-forward="true" selection-start-line="270" selection-start-column="67" selection-end-line="270" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/QueueProvisionAndRequestActiveFlowIndication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="131" column="49" lean-forward="true" selection-start-line="131" selection-start-column="49" selection-end-line="131" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#6343#6344#0" expanded="true" />
+            <element signature="e#6386#6387#0" expanded="true" />
+            <element signature="e#6466#6467#0" expanded="true" />
+            <element signature="e#6540#6541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/AdPubAck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="115" column="35" selection-start-line="115" selection-start-column="35" selection-end-line="115" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/FlowControlQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="146" column="16" lean-forward="true" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/MessageTTLAndDeadMessageQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="204" column="76" lean-forward="true" selection-start-line="204" selection-start-column="76" selection-end-line="204" selection-end-column="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/NoLocalPubSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="175" column="43" lean-forward="true" selection-start-line="175" selection-start-column="43" selection-end-line="175" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/SimpleFlowToTopic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="79" column="29" lean-forward="true" selection-start-line="79" selection-start-column="29" selection-end-line="79" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/TopicToQueueMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="121" column="99" selection-start-line="121" selection-start-column="95" selection-end-line="121" selection-end-column="99" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/common/ArgParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="74" column="45" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="45" />
+          <folding>
+            <element signature="e#633#634#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/QueueProvisionAndBrowse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/common/SampleApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/SimpleFlowToQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="139" column="16" selection-start-line="139" selection-start-column="16" selection-end-line="139" selection-end-column="90" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/solacesystems/jcsmp/samples/introsamples/Transactions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="67" column="9" lean-forward="true" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jcsmp-samples</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

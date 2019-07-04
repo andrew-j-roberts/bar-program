@@ -1,0 +1,9 @@
+JCSMP API Dependencies
+
+Dependencies required to build/run Solace JCSMP based applications are bundled in the lib directory.
+
+The lib directory also includes the legacy sol-common-<version>.jar of which contents have now been moved to 
+sol-jcsmp-<version>.jar and is no longer needed.
+
+NOTICE: Including log4j-1.2.9.jar without a log4j.properties file on the classpath
+may impact program performance by turning the log level to DEBUG.
